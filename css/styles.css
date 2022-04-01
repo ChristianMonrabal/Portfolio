@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=League+Spartan:wght@100&family=Nanum+Gothic&display=swap');
 html {
     font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -11,6 +13,7 @@ p {
 
 h1 {
     font-size: 3rem;
+    color: red;
 }
 
 h2 {
@@ -97,6 +100,35 @@ body {
 
 /* Otras clases */
 
+.centrado {
+    text-align: center;
+}
+
+.padding-m {
+    padding: 2.5%;
+}
+
+img {
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+h1 a {
+    color: red;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 
@@ -106,11 +138,6 @@ body {
     justify-content: center;
 }
 
-
-/* URL Repositorios */
-
--https: //christianmonrabal.github.io/Pokedex/ -https://christianmonrabal.github.io/The-BatMan/ -https://christianmonrabal.github.io/A4-Escuderias-F1-2022/ -https://christianmonrabal.github.io/F1-2022-SEASON/ -https://christianmonrabal.github.io/A5-Lewis-Hamitlon/
--https: //christianmonrabal.github.io/A2-Basics/
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
     .column-2 {
@@ -123,5 +150,8 @@ body {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    img {
+        height: 60vw;
     }
 }
