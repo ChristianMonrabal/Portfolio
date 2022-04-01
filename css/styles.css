@@ -154,4 +154,7 @@ img:hover {
     img {
         height: 60vw;
     }
+    h1 a {
+        font-size: 20px;
+    }
 }
